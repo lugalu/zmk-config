@@ -8,9 +8,8 @@
 
 	default_layer {
 	 bindings = <
-	&kp F6 &kp F7   &kp F8    &kp F9  &kp F10  &kp F11
-	&kp N6 &kp N7   &kp N8    &kp N9  &kp N0   &kp BSLH
-	&kp Y  &kp U    &kp I     &kp O   &kp P    &kp MINUS
+	&kp N6 &kp N7   &kp N8    &kp N9  &kp N0 &kp BSLH
+	&kp Y  &kp U    &kp I     &kp O   &kp P  &kp MINUS
 	&kp H  &kp J    &kp K     &kp L   &kp SEMI &kp SQT
 	&kp N  &kp M    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
 &kp ENTER  &mo 1    &kp EQUAL &kp RGUI
@@ -21,7 +20,6 @@
 	secondary_layer {
 	 bindings = <
 	&none &none   &none    &none  &none  &bootloader
-	&none &none   &none    &none  &none  &none
 	&none &none   &none    &none  &none  &none
 	&none &none   &none    &none  &none  &none
 	&none &none   &none    &none  &none  &none
