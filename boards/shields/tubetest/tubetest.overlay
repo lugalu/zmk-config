@@ -13,6 +13,7 @@
 	pinctrl-0 = <&uart0_default>;
 };
 
+
 / {
 chosen {
 	zmk,kscan = &default_kscan;
@@ -61,4 +62,8 @@ default_transform: matrix_transform {
 >;
 
 };
+};
+
+&default_transform {
+	col-offset = <6>;
 };
