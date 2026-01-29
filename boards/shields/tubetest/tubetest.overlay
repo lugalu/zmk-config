@@ -63,7 +63,3 @@ default_transform: matrix_transform {
 
 };
 };
-
-&default_transform {
-	col-offset = <6>;
-};
